@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Foodelic — Good Food. Good People. Good Vibes.</title>
+<meta name="description" content="Foodelic is a food court built for people who can't decide — different stalls, different cravings, one good table.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/png" href="assets/logo.png">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <a href="#home" class="nav__logo">
+    <img src="assets/logo.png" alt="Foodelic — Good Food Good Vibes" class="nav__logo-img">
+  </a>
+
+  <nav class="nav__links">
+    <a href="#discover">Discover</a>
+    <a href="#food">Food &amp; Drinks</a>
+    <a href="#experience">Experience</a>
+    <a href="#order">Order</a>
+    <a href="#visit">Find Us</a>
+  </nav>
+
+  <a href="#order" class="btn btn--small btn--filled nav__cta">Order Ahead</a>
+
+  <button class="nav__burger" id="burger" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#discover">Discover</a>
+  <a href="#food">Food &amp; Drinks</a>
+  <a href="#experience">Experience</a>
+  <a href="#order">Order</a>
+  <a href="#visit">Find Us</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero__blob hero__blob--a" aria-hidden="true"></div>
+  <div class="hero__blob hero__blob--b" aria-hidden="true"></div>
+
+  <div class="hero__copy">
+    <p class="eyebrow reveal">Welcome to Foodelic</p>
+
+    <h1 class="hero__title">
+      <span class="reveal">Good food.</span>
+      <span class="reveal">Good people.</span>
+      <span class="hero__title-accent reveal">Good vibes.</span>
+    </h1>
+
+    <p class="hero__sub reveal">
+      One court, every craving. Foodelic brings the best stalls, drinks,
+      and people together in one place — so you never have to pick just
+      one thing.
+    </p>
+
+    <div class="hero__actions reveal">
+      <a href="#food" class="btn btn--outline">See What's Inside</a>
+      <a href="#order" class="btn btn--filled">Order Ahead →</a>
+    </div>
+  </div>
+
+  <div class="hero__visual reveal" id="heroFrame">
+    <img src="assets/people-enjoying-foodelic.png" alt="A group of friends laughing together, holding Foodelic takeout boxes and cups against a bright blue sky" id="heroImg">
+    <div class="hero__tag hero__tag--1">good vibes only</div>
+    <div class="hero__tag hero__tag--2">order ahead ✓</div>
+  </div>
+
+  <button class="scroll-cue" id="scrollCue" aria-label="Scroll down">
+    <span>Scroll</span>
+    <i></i>
+  </button>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee">
+  <div class="marquee__track">
+    <span>One Court, Endless Cravings&nbsp;✦&nbsp;Good Food&nbsp;✦&nbsp;Good People&nbsp;✦&nbsp;Good Vibes&nbsp;✦&nbsp;Order Ahead, Skip The Wait&nbsp;✦&nbsp;</span>
+    <span>One Court, Endless Cravings&nbsp;✦&nbsp;Good Food&nbsp;✦&nbsp;Good People&nbsp;✦&nbsp;Good Vibes&nbsp;✦&nbsp;Order Ahead, Skip The Wait&nbsp;✦&nbsp;</span>
+  </div>
+</div>
+
+<!-- DISCOVER -->
+<section class="section discover" id="discover">
+  <div class="discover__copy">
+    <p class="eyebrow reveal">01 — Discover Foodelic</p>
+    <h2 class="reveal">So much to crave,<br>one place to find it.</h2>
+    <p class="section__lede reveal">
+      Foodelic isn't one kitchen — it's a whole court of them. Dumplings
+      next to noodle soup, iced coffee next to cold beer, always
+      something new to try with the people you'd rather be eating with
+      anyway.
+    </p>
+
+    <div class="values reveal">
+      <div class="value">
+        <span class="value__num">01</span>
+        <h3>Variety</h3>
+        <p>Every craving covered, under one roof.</p>
+      </div>
+      <div class="value">
+        <span class="value__num">02</span>
+        <h3>Community</h3>
+        <p>A table that's always got room for one more.</p>
+      </div>
+      <div class="value">
+        <span class="value__num">03</span>
+        <h3>Convenience</h3>
+        <p>In, out, or ordered ahead — your call.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="discover__poster reveal">
+    <img src="assets/1.png" alt="A Foodelic spread of Hainanese chicken rice, dumplings, noodle soup, and iced coffee on a wooden table">
+  </div>
+</section>
+
+<!-- FOOD & DRINKS -->
+<section class="section food" id="food">
+  <div class="section__head">
+    <p class="eyebrow reveal">02 — Food &amp; Drinks</p>
+    <h2 class="reveal">Something for<br>every craving.</h2>
+    <p class="section__lede reveal">
+      No single cuisine, no single mood. Just plate after plate of the
+      good stuff — made fresh across every stall, ready whenever you are.
+    </p>
+  </div>
+
+  <div class="food__showcase">
+    <figure class="food__main reveal">
+      <img src="assets/bonus.png" alt="A wide spread of Foodelic dishes and takeout packaging: chicken rice, prawn noodle soup, dumplings, bao, iced coffee, and beer">
+      <figcaption><span>The Full Spread</span><em>a taste of what's on rotation</em></figcaption>
+    </figure>
+    <figure class="food__side reveal">
+      <img src="assets/6.png" alt="Friends clinking a cola, a Stella Artois beer, and a Foodelic latte together">
+      <figcaption><span>Cheers to That</span><em>coffee, beer, or something cold</em></figcaption>
+    </figure>
+  </div>
+
+  <a href="#order" class="text-link reveal">See what's cooking today <span>→</span></a>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="atmosphere" id="experience">
+  <div class="atmosphere__img reveal">
+    <img src="assets/2.png" alt="Friends laughing together over shared bowls at Foodelic, with the caption Good food hits different with good company">
+  </div>
+
+  <div class="atmosphere__copy">
+    <p class="eyebrow reveal">03 — The Experience</p>
+    <p class="reveal">
+      Foodelic was built for the lunch that runs long and the dinner
+      that wasn't planned. Grab a stool, share a table, come back for
+      seconds — everyone's welcome, no reservation required.
+    </p>
+    <p class="reveal">
+      No rush, no pretense. Just good light, good noise, and a court
+      that's always a little bit alive.
+    </p>
+  </div>
+
+  <div class="pillars reveal">
+    <div class="pillar">
+      <span class="pillar__num">01</span>
+      <h3>Good Food</h3>
+      <p>Every stall sourced with care and cooked with patience — nothing
+      frozen, nothing rushed.</p>
+    </div>
+    <div class="pillar">
+      <span class="pillar__num">02</span>
+      <h3>Good People</h3>
+      <p>A team that treats every guest like a regular, and regulars who
+      treat each other the same.</p>
+    </div>
+    <div class="pillar">
+      <span class="pillar__num">03</span>
+      <h3>Good Vibes</h3>
+      <p>Warm light, easy noise, a room that feels like somewhere you
+      already belong.</p>
+    </div>
+  </div>
+</section>
+
+<!-- QUOTE -->
+<section class="quote">
+  <p class="quote__mark" aria-hidden="true">“</p>
+  <p class="quote__text reveal">
+    Best lunch spot in the building, hands down — there's always
+    something new to try.
+  </p>
+  <p class="quote__attr reveal">— a Foodelic regular</p>
+</section>
+
+<!-- ORDER -->
+<section class="section order" id="order">
+  <div class="order__grid">
+    <div class="order__copy">
+      <p class="eyebrow reveal">04 — Order &amp; Go</p>
+      <h2 class="reveal">Skip the line,<br>not the flavor.</h2>
+      <p class="section__lede reveal">
+        Grabbing lunch between meetings or ordering for the whole crew —
+        order ahead and it'll be ready when you are, hot, fresh, and
+        exactly as good as eating in.
+      </p>
+
+      <div class="steps">
+        <div class="step reveal">
+          <span class="step__num">1</span>
+          <h3>Browse</h3>
+          <p>Explore every stall in one place, from rice bowls to iced drinks.</p>
+        </div>
+        <div class="step reveal">
+          <span class="step__num">2</span>
+          <h3>Order</h3>
+          <p>Mix and match stalls, pay in a couple of taps — no fuss.</p>
+        </div>
+        <div class="step reveal">
+          <span class="step__num">3</span>
+          <h3>Enjoy</h3>
+          <p>Grab it fresh from the counter, or let it come to you.</p>
+        </div>
+      </div>
+
+      <a href="#" class="btn btn--filled btn--large reveal">Order Now</a>
+    </div>
+
+    <div class="order__visual reveal">
+      <img src="assets/people-enjoying-foodelic.png" alt="Friends holding up Foodelic takeout boxes, a coffee cup, and a bao bun, ready to dig in">
+    </div>
+  </div>
+</section>
+
+<!-- VISIT / FIND US -->
+<section class="visit" id="visit">
+  <div class="visit__blob" aria-hidden="true"></div>
+
+  <p class="eyebrow eyebrow--light reveal">05 — Find Us</p>
+  <h2 class="visit__title reveal">We saved<br>you a seat.</h2>
+  <p class="visit__sub reveal">Good food, good people, good vibes — all under one roof.</p>
+
+  <div class="visit__actions reveal">
+    <a href="#" class="btn btn--filled btn--light btn--large">Order Now</a>
+    <a href="https://www.google.com/maps/search/?api=1&query=8+Club+Street+%23B2-34+Singapore+069472" target="_blank" rel="noopener" class="btn btn--outline btn--light btn--large">Get Directions</a>
+  </div>
+
+  <div class="visit__details reveal">
+    <div>
+      <span>Location</span>
+      <p>8 Club Street, #B2-34, Singapore 069472</p>
+    </div>
+    <div>
+      <span>Hours</span>
+      <p>Daily, 10am – 10pm</p>
+    </div>
+    <div>
+      <span>Say Hello</span>
+      <p>hello@foodelic.com</p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <span class="footer__logo">
+    <img src="assets/logo.png" alt="Foodelic">
+  </span>
+  <div class="footer__social">
+    <a href="#">Instagram</a>
+    <a href="#">TikTok</a>
+    <a href="#">Facebook</a>
+  </div>
+  <p class="footer__copy">© 2026 Foodelic. Good food, good people, good vibes.</p>
+</footer>
+
+<!-- BUY THIS WEBSITE MODAL -->
+<div class="sale-modal" id="saleModal" aria-hidden="true">
+  <div class="sale-modal__backdrop" id="saleModalBackdrop"></div>
+  <div class="sale-modal__card" role="dialog" aria-modal="true" aria-labelledby="saleModalTitle">
+    <button class="sale-modal__close" id="saleModalClose" aria-label="Close">✕</button>
+
+    <p class="eyebrow">Psst — this is a demo</p>
+    <h2 class="sale-modal__title" id="saleModalTitle">Buy this website.</h2>
+
+    <div class="sale-modal__prices">
+      <div class="sale-modal__price sale-modal__price--no">
+        <span>SGD 3,000</span>
+        <em>NO</em>
+      </div>
+      <div class="sale-modal__price sale-modal__price--no">
+        <span>SGD 5,000</span>
+        <em>NO</em>
+      </div>
+      <div class="sale-modal__price sale-modal__price--no">
+        <span>SGD 10,000</span>
+        <em>NO</em>
+      </div>
+      <div class="sale-modal__price sale-modal__price--yes">
+        <span>My price</span>
+        <em>SGD 2,500</em>
+      </div>
+    </div>
+
+    <ul class="sale-modal__list">
+      <li>We'll build the complete version upon approval — every section, fully custom.</li>
+      <li>Tailored to your brand, your menu, your vibe.</li>
+      <li>Free 1 year of hosting included.</li>
+      <li>SEO-optimized from day one.</li>
+    </ul>
+
+    <a href="https://elijahflores.xyz" target="_blank" rel="noopener" class="btn btn--filled btn--large sale-modal__cta">Let's Talk</a>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
